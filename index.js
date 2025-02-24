@@ -38,8 +38,8 @@ mongoose.connect("mongodb+srv://nimeshspc2k17:yi2OALzdmuELllC1@portfolio.icrtl.m
 
   // api
 
-  app.post('/addskill',addSkill);
-  app.get('/getskills',getSkill)
+  app.post('https://api.render.com/deploy/srv-cuu7qo0gph6c73abb500?key=MTITh8c-4us/addskill',addSkill);
+  app.get('https://api.render.com/deploy/srv-cuu7qo0gph6c73abb500?key=MTITh8c-4us/getskills',getSkill)
   app.post('/addproject',addProjects)
   app.get('/getprojects',getProjects)
   app.post('/addblogs',addBlog)
